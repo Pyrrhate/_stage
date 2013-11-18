@@ -1,5 +1,5 @@
 body{
-	padding-top: 80px;
+	padding: 80px auto;
 }
 .navbar-default li a {
 	text-transform: uppercase;
@@ -8,9 +8,26 @@ body{
 	margin-bottom:0;
 }
 #banner-clients {
-	
+
 }
 
-#home-slider {
-	max-width: 520px;
+#home-slide img {
+	max-height: 520px;
+	/*width: 100%;*/
+}
+
+#carousel-home {
+	margin-bottom: 80px;
+}
+
+.carousel-indicators {
+	bottom:-30px;
+}
+.carousel-indicators li{
+	border: 2px solid #505050;
+}
+.carousel-indicators li.active {
+}
+#home-services .row {
+	margin-bottom: 80px;
 }
