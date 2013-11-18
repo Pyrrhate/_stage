@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row margin-xl-bottom">
         <div class="col-md-4">
           <div class="glyphicon glyphicon-file"></div>
           <div class="caption">
@@ -66,5 +66,16 @@
             </p>
           </div>
         </div>
+    </div>
+    <div class="container">
+      <div class="panel panel-default margin-xs-bottom">
+        <div class="panel-body text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+      </div>
+      <div class="text-left">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit !</p>
+        <a class="btn btn-primary btn-warning btn-lg" href="#">S'inscrire</a>
+      </div>
     </div>
 </section>
