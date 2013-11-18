@@ -31,3 +31,10 @@ body{
 #home-services .row {
 	margin-bottom: 80px;
 }
+.margin-xs {
+	margin-bottom:30px;
+}
+.separator {
+	border-top: 1px solid #eeeeee;
+	margin-bottom:30px;
+}
