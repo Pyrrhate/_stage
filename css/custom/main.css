@@ -1,0 +1,16 @@
+body{
+	padding-top: 80px;
+}
+.navbar-default li a {
+	text-transform: uppercase;
+}
+.thumbnail.partner {
+	margin-bottom:0;
+}
+#banner-clients {
+	
+}
+
+#home-slider {
+	max-width: 520px;
+}
