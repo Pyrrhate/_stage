@@ -176,6 +176,9 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Notes Guillaume Canva 
+notes.txt
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
