@@ -1,4 +1,3 @@
-<!-- section#footer>div.container>div.separator.margin-xs+(div.col-md-3>ul.list-unstyled>(li.list-group-item.panel-heading>h3.panel-title{Lorem Ipsum})+(li.list-group-item>a{Lorem ipsum})*4)*4 -->
 <section id="footer">
   <div class="container">
     <nav class="navbar">

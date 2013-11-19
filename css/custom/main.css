@@ -121,3 +121,25 @@ body{
 #signin-modal, #signup-modal {
 	overflow-y:auto;
 }
+
+#nav-main-member .form-group {
+	padding-left:0;
+	padding-right:0;
+	margin-right:0;
+}
+#nav-main-member .form-group input{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#nav-main-member .input-group-btn {
+	padding-left: 0;
+}
+.drop-item i {
+	width:20%;
+}
+.drop-item span {
+	width:60%;
+}
+button.drop-item i {
+	/*width:10%;*/
+}
