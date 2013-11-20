@@ -1,4 +1,4 @@
-<section id="footer">
+<section id="footer" class="section">
   <div class="container">
     <nav class="navbar">
       <ul class="nav navbar-nav navbar-left">

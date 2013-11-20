@@ -1,4 +1,4 @@
-<section id="home-services">
+<section id="home-services" class="section">
   <div class="container">
     <div class="page-header text-center">
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit !</p>

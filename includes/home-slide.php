@@ -1,4 +1,4 @@
-<section id="home-slide" class="home-page">
+<section id="home-slide" class="section home-page">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">

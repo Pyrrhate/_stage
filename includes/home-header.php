@@ -1,4 +1,4 @@
-<section id="home-header" class="home-page margin-xl-top">
+<section id="home-header" class="home-page">
   <div class="container">
     <div class="jumbotron">
       <h1>Hello World !</h1>

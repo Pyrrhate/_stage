@@ -1,4 +1,4 @@
-<section class="navbar navbar-default home-page" id="clients-banner">
+<section class="section navbar navbar-default home-page" id="clients-banner">
   <div class="container">
     <ul class="row">
       <li class="col-md-3">

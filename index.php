@@ -9,7 +9,8 @@
   <meta name="copyright" content="tous droits réservés" >
 
   <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/custom/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom/styles-responsive.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <title>TEST BOOTSTRAP</title>
