@@ -1,10 +1,21 @@
 
 @media screen and (max-width: 840px){
-	body{
-		padding: 120px 0;
-	}
-	#avatar-profil .edit-avatar a{
-		/*position: relative;*/
+	#avatar-profil .edit-avatar {
 		opacity: 1;
 	}
+	#avatar-profil .edit-avatar a{
+		position: relative;
+	}
+
+	/* 
+	#page-listing #member-main .col-lg-8{
+		float:right;
+	}
+	
+	*/
+	#page-listing #member-main .col-lg-4{
+		.pull-right();
+	} 
+}
+@media screen and (max-width: 480px){
 }

@@ -99,64 +99,64 @@ section.section {
 /* .navbar .col-md-3:last-child {
 	position:relative;
 	clear:right;
-} */
-/* footer */
-#footer #nav-footer {
-	padding: 30px 0;
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #eeeeee;
-}
-#footer .navbar ul{
-	margin:0;
-}
-#footer .navbar {
-	border-top:  1px solid #eeeeee;
-}
-#footer #nav-footer .panel-title {
-	padding:10px 0;
-	text-transform: uppercase;
-}
-#footer #nav-footer li.list-group-item{
-	border:0;
-	padding:5px 15px;
-}
-/* /footer */
+	} */
+	/* footer */
+	#footer #nav-footer {
+		padding: 30px 0;
+		border-top: 1px solid #eeeeee;
+		border-bottom: 1px solid #eeeeee;
+	}
+	#footer .navbar ul{
+		margin:0;
+	}
+	#footer .navbar {
+		border-top:  1px solid #eeeeee;
+	}
+	#footer #nav-footer .panel-title {
+		padding:10px 0;
+		text-transform: uppercase;
+	}
+	#footer #nav-footer li.list-group-item{
+		border:0;
+		padding:5px 15px;
+	}
+	/* /footer */
 
-#inscription-modal {
-	width: 100%;
-	height:100%;
-	background-color: rgba(50,50,50,0.9);
-}
-#home-services .signup {
-	border-top: 1px solid #eeeeee;
-	border-bottom: 1px solid #eeeeee;
-	padding: 30px 0;
-}
-#nav-main .nav-main-items .nav-items-first:hover{
-	background-color: #eeeeee;
-}
-#signin-modal, #signup-modal {
-	overflow-y:auto;
-}
+	#inscription-modal {
+		width: 100%;
+		height:100%;
+		background-color: rgba(50,50,50,0.9);
+	}
+	#home-services .signup {
+		border-top: 1px solid #eeeeee;
+		border-bottom: 1px solid #eeeeee;
+		padding: 30px 0;
+	}
+	#nav-main .nav-main-items .nav-items-first:hover{
+		background-color: #eeeeee;
+	}
+	#signin-modal, #signup-modal {
+		overflow-y:auto;
+	}
 
-#nav-main-member .form-group {
-	padding-left:0;
-	padding-right:0;
-	margin-right:0;
-}
-#nav-main-member .form-group input{
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-}
-#nav-main-member .input-group-btn {
-	padding-left: 0;
-}
-.drop-item i {
-	width:20%;
-}
-.drop-item span {
-	width:60%;
-}
+	#nav-main-member .form-group {
+		padding-left:0;
+		padding-right:0;
+		margin-right:0;
+	}
+	#nav-main-member .form-group input{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	#nav-main-member .input-group-btn {
+		padding-left: 0;
+	}
+	.drop-item i {
+		width:20%;
+	}
+	.drop-item span {
+		width:60%;
+	}
 
 
 /*****************************
@@ -168,18 +168,37 @@ Listing Page
 	border:0;
 }
 #projects .panel-heading .badge {
-	background-color: #fff;
-	color:#428bca;
+	/*background-color: #fff;*/
+	/*color:#428bca;*/
 }
 #projects #btn-add-project {
 	padding:0;
 }
 #projects .fa-plus {
-	color:#428bca;
+	/*color:#428bca;*/
 }
 #projects td {
 	padding: 15px 10px;
 	border: 1px solid #ddd;
+}
+#projects .project-title{
+	padding: 0;
+}
+
+#projects .panel.panel-default {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-top:0;
+	margin-bottom: -1px;
+}
+#projects .panel.panel-default .panel-heading {
+	padding: 15px 10px;
+	background-color: rgb(255,255,255);
+	cursor: pointer;
+}
+#projects .panel.panel-default .panel-heading:hover {
+	background-color: #f5f5f5;
 }
 #projects tr:first-child:hover {
 	background-color: #fff;
@@ -187,12 +206,16 @@ Listing Page
 #projects tr:hover {
 	background-color: #f5f5f5;
 }
+#projects .progress{
+	margin-bottom: 0;
+}
+#projects td:hover .progress{
+	background-color: #fff;
+}
 /*__/listing projects__*/
 
 /* avatar - profil */
-#avatar-profil {
-	padding: 0 25%;
-}
+
 #avatar-profil ul {
 	margin:0;
 }
@@ -204,20 +227,15 @@ Listing Page
 	width: 100%;
 }
 #avatar-profil .edit-avatar {
-	margin:auto;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	opacity:0;
 }
 #avatar-profil ul:hover .edit-avatar {
 	opacity: 1;
 	-webkit-transition: opacity 1000ms ;
-		-moz-transition: opacity 1000ms ;
-        -ms-transition: opacity 1000ms ;
-        -o-transition: opacity 1000ms ;
-		transition: opacity 1000ms ;
-	
+	-moz-transition: opacity 1000ms ;
+	-ms-transition: opacity 1000ms ;
+	-o-transition: opacity 1000ms ;
+	transition: opacity 1000ms ;
 }
 #avatar-profil figcaption h2{
 	margin-top:0;

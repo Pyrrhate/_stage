@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/custom/styles-responsive.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-  <title>member - Listing</title>
+  <title>member - Translation</title>
 </head>
 <body id="page-listing">
   <a class="sr-only" href="#content">Skip to main content</a>
@@ -22,10 +22,10 @@
   <section class="section" id="member-main">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-sm-9">  
-          <?php require_once('includes/projects-listing.php'); ?>
+        <div class="col-lg-6">  
+          <?php require_once('includes/translation-document.php'); ?>
         </div>
-        <div class="col-lg-4 col-sm-3 col-xs-6">
+        <div class="col-lg-6">
           <?php require_once('includes/avatar.php'); ?>
         </div>
       </div>
