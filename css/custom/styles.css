@@ -4,6 +4,15 @@ body{
 .navbar-default li a {
 	text-transform: uppercase;
 }
+#nav-main-member {
+	z-index:1000;
+}
+#nav-subnav-member {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	/*z-index: 500;*/
+}
 .thumbnail.partner {
 	margin-bottom:0;
 }
@@ -84,6 +93,9 @@ section.section {
 }
 .no-padding{
 	padding:0;
+}
+.no-padding-left {
+	padding-left: 0;
 }
 .no-margin {
 	margin:0;
@@ -212,6 +224,10 @@ Listing Page
 #projects td:hover .progress{
 	background-color: #fff;
 }
+#projects .panel.panel-default.new-project .panel-heading:hover {
+	background-color: rgb(255,255,255);
+	cursor:auto;
+} 
 /*__/listing projects__*/
 
 /* avatar - profil */
@@ -250,6 +266,181 @@ Listing Page
 	border-top-right-radius:0;
 	background-color: rgba(255,255,255,0.8);
 }
+
+
 /* /avatar - profil */
 
 /*__/listing page__*/
+
+
+
+#page-listing {
+	padding-top: 50px;
+}
+
+#page-translation {
+	padding-top: 100px;
+}
+#member-main {
+}
+/* #nav-subnav-member {
+	-moz-box-shadow: 0px 5px 5px 3px #c5c5c5;
+-webkit-box-shadow: 0px 5px 5px 3px #c5c5c5;
+box-shadow: 0px 5px 5px 3px #c5c5c5;
+filter: progid:DXImageTransform.Microsoft.Shadow(strength = 10, direction = 180, color = '#c5c5c5');
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 10, Direction = 180, Color = '#c5c5c5')";
+Shadows look very different in IE (Only cardinal directions supported)
+INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES
+Element should have a background-color
+All filters must be placed together
+IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS
+IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
+
+} */
+
+
+#translation-document tbody tr {
+	margin-bottom: 10px;
+	border-collapse: separate;
+	/*border:10px solid #fff;*/
+}
+#translation-document tbody td{
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: 15px;
+}
+#translation-document .table-striped>tbody>tr:nth-child(odd) td{
+	background-color: #f5f5f5;
+}
+#translation-document .table-striped>tbody>tr:hover blockquote{
+	border-left-color: #fff;
+}
+#translation-document .table-striped>tbody>tr:hover td {
+	background-color: #428bca;
+	color: #fff;
+}
+#translation-document .table-striped>tbody>tr:hover .text-primary {
+	color: #fff;
+}
+#translation-document blockquote{
+	border-left-color: #428bca;
+	padding: 5px 15px;
+}
+#translation-document tbody tr td:first-child {
+	/*border-right: 2px dashed #222 ;*/
+	/*padding-left: 0;*/
+}
+#translation-document tbody tr td:last-child {
+	/*border-left: 3px dashed #222 ;*/
+	padding: 15px 20px
+}
+
+
+.no-padding-left-xs {
+padding: 0;
+padding-left: 20px;
+}
+
+
+#translation-bar .well {
+	padding: 8px;
+}
+#translation-bar .well blockquote{
+	padding: 5px 10px;
+	cursor: default;
+}
+#translation-bar {
+	height: 33%;
+	background-color: #222;
+	padding: 10px;
+	-moz-box-shadow: 0px 0px 10px 6px #c5c5c5;
+	-webkit-box-shadow: 0px 0px 10px 6px #c5c5c5;	
+	box-shadow: 0px 0px 10px 6px #c5c5c5;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+	/*IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS*/
+}
+#translation-bar .side-left {
+		color:#fff;
+		height: 100%;
+}
+#translation-bar .translation-bar-main, #translation-bar .translation-bar-main form, #translation-bar .translation-bar-main .form-group{
+	height:100%;
+}
+#translation-bar .well {
+	/*margin-bottom: 2%;*/
+	margin-bottom: 0;
+}
+#translation-bar textarea {
+	max-width: 100%;
+	/*max-height: 80px;*/
+	/*max-height: 78%;*/
+	min-height: 100%;
+}
+.wellcontent {
+	height:25%;
+	/*padding-bottom: 20px;*/
+}
+.textareacontent {
+	height:75%;
+}
+#translation-bar .side-right .nav-tabs{
+	/*max-height:20%;*/
+}
+#translation-bar .side-right {
+		height: 100%;
+}
+#translation-bar .side-right .tab-content .list-group {
+	height:100%;
+
+}
+#translation-bar .side-right .tab-content .list-group-item{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+#translation-bar .side-right .tab-pane{
+	max-height:100%;
+	overflow:auto;
+	width: 100%;
+}
+#translation-bar .side-right .tab-content{
+	height:80%;
+	/*top:20px;*/
+	/*margin: 20px 0;*/
+}
+#translation-bar .side-right .nav-content {
+	height: 20%;
+	width: 100%;
+}
+#translation-bar .side-right .panel{
+		
+}
+
+#translation-bar .well {
+	color: #222;
+	background-color: #e5e5e5;
+}
+#translation-bar textarea{
+
+}#translation-bar .translation-bar-main {
+	height: 100%;
+}
+
+#page-translation .navbar-inverse .navbar-nav a{
+	padding: 10px;
+	height: 60px;
+	line-height: 40px;
+}
+#page-translation .navbar-inverse .navbar-nav.friends-avatars a{
+	padding: 10px 0 10px 5px;
+}
+#page-translation .navbar-inverse .navbar-nav.friends-avatars img {
+	height:40px;
+	width:40px;
+	background-color: #222;
+}
+.friends-avatars img.offline {
+	opacity: 0.5;
+	border-color: #111;
+}

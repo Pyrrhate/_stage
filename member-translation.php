@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,27 +17,16 @@
 
   <title>member - Translation</title>
 </head>
-<body id="page-listing">
+<body id="page-translation">
   <a class="sr-only" href="#content">Skip to main content</a>
-
-  <?php require_once('includes/member-nav.php'); ?>
-  <section class="section" id="member-main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">  
-          <?php require_once('includes/translation-document.php'); ?>
-        </div>
-        <div class="col-lg-6">
-          <?php require_once('includes/avatar.php'); ?>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php require_once('includes/translation-nav.php'); ?>
 <!--   <div class="wrapper">
   <div class="content-main">...</div>
   <div class="content-secondary">...</div>
 </div> -->
 
+<?php require_once('includes/translation-document.php'); ?>
+<?php require_once('includes/translation-bar.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

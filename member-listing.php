@@ -19,7 +19,7 @@
   <a class="sr-only" href="#content">Skip to main content</a>
 
   <?php require_once('includes/member-nav.php'); ?>
-  <section class="section" id="member-main">
+  <section class="section margin-xl-top" id="member-main">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-9">  

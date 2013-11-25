@@ -15,10 +15,10 @@
         <div class="dropdown-toggle" data-toggle="dropdown">
           <button type="button" class="btn btn-default btn-block drop-item">
             <div class="col-lg-10"><i class="fa fa-cog"></i><span>Membre</span></div>
-          <div class="col-lg-2 no-padding-left">
-            <span class="caret"></span>
-            <span class="sr-only">Toggle Dropdown</span>
-          </div>
+            <div class="col-lg-2 no-padding-left">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </div>
           </button>
         </div>
         <ul class="dropdown-menu" role="menu">
@@ -48,5 +48,56 @@
     </form> -->
   </div>
 
+
+
+  <nav class="navbar navbar-default navbar-inverse row no-margin" role="navigation" id="nav-subnav-member">
+    <!-- Brand and toggle get grouped for better mobile display -->
+ <!--  <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+ </div> -->
+
+ <!--  <div class="col-lg-3">
+   <ul class="nav navbar-nav">
+     <li class="active"><a href="#">Link</a></li>
+     <li><a href="#">Link</a></li>
+   </ul>
+ </div>/.navbar-collapse -->
+ <div class="col-lg-8 col-lg-offset-2">
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="#"><span class="col-lg-10">Titre du projet</span><span class="col-lg-2"><i class="fa fa-cog"></i></span></a></li>
+    <!-- <li><a href="#"><span class="col-lg-10">FR</span></i><span class="col-lg-2"><i class="fa fa-cog"></i><span>EN</span></a></li> -->
+    <li><a href="#">240<i> / </i>600</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right friends-avatars">
+    <li>
+      <div></div>
+      <a href="#"><img src="" alt"" class=""></a>
+    </li>
+    <li>
+      <a href="#"><img src="" alt"" class=""></a>
+    </li>
+    <li>
+      <a href="#"><img src="" alt"" class="offline"></a>
+    </li>
+    <li>
+      <a href="#"><img src="" alt"" class="offline"></a>
+    </li>
+  </ul>
+</div><!-- /.navbar-collapse -->
+  <!-- <div class="col-lg-3">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>/.navbar-collapse -->
 </nav>
-<?php require_once('includes/modal-sign-in.php'); ?>	
+
+</nav>
+<?php require_once('includes/modal-sign-in.php'); ?>  
+
+

@@ -3,7 +3,7 @@
    <ul class="list-unstyled">
     <li class=""><img class="img-thumbnail" src="data/pictures/avatar.png" alt="avatar du membre"></li>
     <li class="edit-avatar">
-      <a href="#" class="btn btn-default edit" role="button">edit</a>
+      <a href="#" class="btn btn-default edit" role="button" data-toggle="modal" data-target="#uploadpicture-modal">edit</a>
     </li>
   </ul>
   <figcaption class="text-center">
@@ -12,3 +12,5 @@
   </figcaption>
 
 </figure>
+
+<?php require_once('includes/modal-upload-picture.php'); ?>
