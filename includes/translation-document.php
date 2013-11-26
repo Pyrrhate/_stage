@@ -4,7 +4,7 @@
   </div>
   <div class="col-lg-8" id="translation-document">
     <table class="table table-striped">
-      <thead>
+      <thead id="top-document">
         <td><strong>Segments originaux</strong></td>
         <td><strong>Segments traduits</strong></td>
       </thead>
@@ -48,6 +48,10 @@
 </tbody>
 </table>
 </div>
-<div class="col-lg-2"></div>
+<div class="col-lg-2">
+
+  <div id="scrollTop"><a href="#page-translation"><i class="fa fa-angle-up"></i><i>Top</i></a></div>
+
+</div>
 
 </section>

@@ -13,6 +13,13 @@ body{
 	border-radius: 0;
 	/*z-index: 500;*/
 }
+#nav-subnav-member .infos-project {
+	padding-left: 0;
+}
+#nav-subnav-member .infos-project .fa{
+	font-size: 24px;
+	line-height: 40px;
+}
 .thumbnail.partner {
 	margin-bottom:0;
 }
@@ -94,8 +101,17 @@ section.section {
 .no-padding{
 	padding:0;
 }
+.no-padding-top {
+	padding-top: 0;
+}
+.no-padding-bottom {
+	padding-bottom: 0;
+}
 .no-padding-left {
 	padding-left: 0;
+}
+.no-padding-right {
+	padding-right: 0;
 }
 .no-margin {
 	margin:0;
@@ -279,7 +295,7 @@ Listing Page
 }
 
 #page-translation {
-	padding-top: 100px;
+	padding-top: 110px;
 }
 #member-main {
 }
@@ -299,12 +315,15 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 } */
 
 
+#translation-document {
+	margin-bottom: 180px;
+}
 #translation-document tbody tr {
-	margin-bottom: 10px;
-	border-collapse: separate;
+	/*margin-bottom: 10px;*/
+	/*border-collapse: separate;*/
 	/*border:10px solid #fff;*/
 }
-#translation-document tbody td{
+#translation-document td{
 	padding: 10px 15px;
 	cursor: pointer;
 	font-size: 15px;
@@ -330,15 +349,52 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 	/*border-right: 2px dashed #222 ;*/
 	/*padding-left: 0;*/
 }
+#translation-document thead td {
+	color: #222;
+}
 #translation-document tbody tr td:last-child {
 	/*border-left: 3px dashed #222 ;*/
-	padding: 15px 20px
+	padding: 15px 20px ;
+}
+#translation-document .table-striped>tbody>tr:nth-child(odd) td.tdClick, #translation-document .tdClick {
+	background-color: #428bca;
+	color: #fff;
 }
 
+#translation-document .table-striped>tbody>tr:nth-child(odd):hover td.tdClick {
+	background-color: #f5f5f5;
+	color:#222;
+} 
+#translation-document .table-striped>tbody>tr:nth-child(odd):hover td.tdClick blockquote{
+	border-color: #428bca;
+	color:#222;
+}  
 
+#translation-document .table-striped>tbody>tr:nth-child(even):hover td.tdClick {
+	background-color: #fff;
+	color: #222;
+} 
+#translation-document .table-striped>tbody>tr:nth-child(even):hover td.tdClick blockquote{
+	border-color: #428bca;
+	color:#222;
+} 
+#translation-document .tdClick {
+	background-color: #428bca;
+	color: #fff;
+}
+
+#translation-document .tdClick blockquote{
+	color: #fff;
+	border-color:#fff;
+}
+
+.table-striped>tbody>tr:nth-child(odd)
+{
+
+}
 .no-padding-left-xs {
-padding: 0;
-padding-left: 20px;
+	padding: 0;
+	padding-left: 20px;
 }
 
 
@@ -360,34 +416,28 @@ padding-left: 20px;
 	/*IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS*/
 }
 #translation-bar .side-left {
-		color:#fff;
-		height: 100%;
+	color:#fff;
+	height: 100%;
 }
 #translation-bar .translation-bar-main, #translation-bar .translation-bar-main form, #translation-bar .translation-bar-main .form-group{
 	height:100%;
 }
 #translation-bar .well {
-	/*margin-bottom: 2%;*/
 	margin-bottom: 0;
 }
 #translation-bar textarea {
 	max-width: 100%;
-	/*max-height: 80px;*/
-	/*max-height: 78%;*/
 	min-height: 100%;
+	max-height: 100%;
 }
 .wellcontent {
 	height:25%;
-	/*padding-bottom: 20px;*/
 }
 .textareacontent {
 	height:75%;
 }
-#translation-bar .side-right .nav-tabs{
-	/*max-height:20%;*/
-}
 #translation-bar .side-right {
-		height: 100%;
+	height: 100%;
 }
 #translation-bar .side-right .tab-content .list-group {
 	height:100%;
@@ -406,15 +456,13 @@ padding-left: 20px;
 }
 #translation-bar .side-right .tab-content{
 	height:80%;
-	/*top:20px;*/
-	/*margin: 20px 0;*/
 }
 #translation-bar .side-right .nav-content {
 	height: 20%;
 	width: 100%;
 }
 #translation-bar .side-right .panel{
-		
+
 }
 
 #translation-bar .well {
@@ -423,24 +471,192 @@ padding-left: 20px;
 }
 #translation-bar textarea{
 
-}#translation-bar .translation-bar-main {
-	height: 100%;
-}
+	}#translation-bar .translation-bar-main {
+		height: 100%;
+	}
 
-#page-translation .navbar-inverse .navbar-nav a{
-	padding: 10px;
-	height: 60px;
-	line-height: 40px;
+	#page-translation .navbar-inverse .navbar-nav a{
+		padding: 10px;
+		height: 60px;
+		line-height: 40px;
+	}
+	#page-translation .navbar-inverse .navbar-nav.friends-avatars a{
+		padding: 10px 0 10px 5px;
+	}
+
+.nav.navbar-nav.friends-avatars {
+
 }
-#page-translation .navbar-inverse .navbar-nav.friends-avatars a{
-	padding: 10px 0 10px 5px;
+#page-translation .nb-segments a, #page-translation .friends-avatars .fa {
+		color:#428bca;
+
 }
-#page-translation .navbar-inverse .navbar-nav.friends-avatars img {
-	height:40px;
-	width:40px;
-	background-color: #222;
+#page-translation .navbar-inverse .navbar-nav>li>a {
+
 }
-.friends-avatars img.offline {
-	opacity: 0.5;
-	border-color: #111;
+.friends-avatars li:last-child{
+	font-size: 24px;
+	color: #428bca;
+}
+	.friends-avatars a{
+		padding: 10px 5px 10px 0px;
+	}
+	.friends-avatars img {
+		height:40px;
+		width:40px;
+		background-color: #222;
+	}
+
+	.friends-avatars img.offline {
+		opacity: 0.5;
+		border-color: #111;
+	}
+
+	/* ADD FRIEND ---MODAL--- */
+
+	.add-friend {
+		margin: 0 1.5% 10px 0;
+		width: 18.8%;
+	}
+	.add-friend a {
+		margin: 0;
+		display: block;
+	}
+	.add-friend img {
+		width: 100%;
+		background-color: #222;
+		display: block;
+	}
+	.add-friend .add-friend-content {
+		position: relative;
+	}
+
+	.last-item {
+		margin-right: 0;
+	}
+	.add-friend i.fa {
+		position: absolute;
+		display: block;
+		width: 100%;
+		font-size: 48px; 
+		vertical-align: middle;
+		line-height: 101px;
+		text-align: center;
+		color:#428bca;
+	}
+	/* /add-friend */
+
+	.hover-hide {
+		opacity: 0;
+	}
+	.hover-hide:hover {
+		opacity: 1;
+		opacity: 1;
+		-webkit-transition: opacity 250ms ;
+		-moz-transition: opacity 250ms ;
+		-ms-transition: opacity 250ms ;
+		-o-transition: opacity 250ms ;
+		transition: opacity 250ms ;
+		background-color: rgba(22,22,22,0.8);
+	}
+
+.title-project {
+	padding:0;
+}
+	#translation-document .left-click td:first-child blockquote  {
+		color: #fff;
+		border-color: #fff;
+	}
+	#translation-document .left-click td:first-child, #translation-document .left-click tr:nth-child(odd) td:first-child{
+		background-color: #428bca;
+		color:#fff;
+	}
+	#translation-document .right-click td:last-child, #translation-document .right-click tr:nth-child(odd) td:last-child{
+		background-color: #428bca;
+		color: #fff;
+	}
+
+	#translation-document .left-click tbody tr:nth-child(odd):hover td,
+	#translation-document .right-click tbody tr:nth-child(odd):hover td {
+		background-color: #f5f5f5;
+		color:#222;
+	} 
+	#translation-document .left-click tbody tr:nth-child(odd):hover td blockquote, 
+	#translation-document .right-click tbody tr:nth-child(odd):hover td blockquote {
+		background-color: #f5f5f5;
+		color:#222;
+		border-color: #428bca;
+	}
+	#translation-document .left-click tbody tr:nth-child(even):hover td,
+	#translation-document .right-click tbody tr:nth-child(even):hover td {
+		background-color: #fff;
+		color:#222;
+	} 
+	#translation-document .left-click tbody tr:nth-child(even):hover td blockquote,
+	#translation-document .right-click tbody tr:nth-child(even):hover td blockquote {
+		background-color: #fff;
+		color:#222;
+		border-color: #428bca;
+	}
+	#translation-document tbody>tr:nth-child(odd).trClicked td,
+	#translation-document tbody>tr:nth-child(odd).trClicked td blockquote,
+	#translation-document tbody>tr:nth-child(even).trClicked td,
+	#translation-document tbody>tr:nth-child(even).trClicked td blockquote,
+
+	#translation-document tbody>tr#actual-segment:nth-child(odd) td,
+	#translation-document tbody>tr#actual-segment:nth-child(odd) td blockquote,
+	#translation-document tbody>tr#actual-segment:nth-child(even) td,
+	#translation-document tbody>tr#actual-segment:nth-child(even) td blockquote {
+		background-color: #428bca;
+		color: #fff;
+		border-color: #fff;
+	}
+
+	/* SCROLL TOP DOCUMENT */
+
+	#scrollTop {
+		display: none;
+		position:fixed;
+		z-index:10000;
+	}
+	#scrollTop a {
+		opacity: 0.8;
+		display: block;
+		height:60px;
+		width:60px;
+		background-color: #428bca;
+		text-align: center;
+		position: relative;
+		text-decoration: none;
+		color: #fff;
+	}
+	#scrollTop a:hover {
+		opacity:1;
+		-webkit-transition: opacity 250ms ;
+		-moz-transition: opacity 250ms ;
+		-ms-transition: opacity 250ms ;
+		-o-transition: opacity 250ms ;
+		transition: opacity 250ms ;
+	}
+	#scrollTop i.fa {
+		font-size: 29px;
+		width: 60px;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+	#scrollTop i:last-child {
+		font-size: 16px;
+		width: 60px;
+		top: 29px;
+		position: relative;
+	}
+	/* /scroll top document */
+
+	.show {
+		display: block;
+	}
+
+
+#num-segment {
 }
