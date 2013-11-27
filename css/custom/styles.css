@@ -195,6 +195,9 @@ Listing Page
 #projects {
 	border:0;
 }
+#projects .panel-heading {
+	background-color: #f5f5f5;
+}
 #projects .panel-heading .badge {
 	/*background-color: #fff;*/
 	/*color:#428bca;*/
@@ -205,45 +208,112 @@ Listing Page
 #projects .fa-plus {
 	/*color:#428bca;*/
 }
-#projects td {
-	padding: 15px 10px;
-	border: 1px solid #ddd;
-}
 #projects .project-title{
 	padding: 0;
 }
-
+#projects .panel-title{
+	color: #428bca;
+}
+#projects .panel.panel-default .panel-heading:hover span,
+#projects .panel-active .panel-title{
+	color: #fff;
+}
 #projects .panel.panel-default {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
 	margin-top:0;
-	margin-bottom: -1px;
+	/*margin-bottom: -1px;*/
 }
-#projects .panel.panel-default .panel-heading {
+#projects .panel-heading.projects-title {
+	background-color: #f5f5f5;
+}
+#projects .panel-heading {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 	padding: 15px 10px;
 	background-color: rgb(255,255,255);
 	cursor: pointer;
 }
-#projects .panel.panel-default .panel-heading:hover {
-	background-color: #f5f5f5;
+#projects .panel-heading,
+#projects .panel-title {
+	width: 100%;
 }
-#projects tr:first-child:hover {
+#projects #btn-new-project {
+	margin: 10px 0;
+}
+#projects .panel-heading:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel-heading:hover a{
+	color:#fff;
+}
+#projects .new-project .panel-heading {
 	background-color: #fff;
-}
-#projects tr:hover {
-	background-color: #f5f5f5;
 }
 #projects .progress{
 	margin-bottom: 0;
 }
-#projects td:hover .progress{
-	background-color: #fff;
-}
 #projects .panel.panel-default.new-project .panel-heading:hover {
 	background-color: rgb(255,255,255);
-	cursor:auto;
+	cursor: default;
 } 
+#projects .panel-heading .col-lg-3,
+#projects .panel-body .col-lg-3 {
+	padding-right: 0;
+}
+#projects-heading,
+#projects-heading li{
+/* 	-webkit-border-bottom-left-radius: 0;
+-moz-border-bottom-left-radius: 0;
+border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-moz-border-bottom-right-radius: 0;
+border-bottom-right-radius: 0; */
+border:0;
+}
+#projects-heading h4 {
+	border-bottom: solid 2px #e3e3e3;
+	padding-bottom: 10px;
+}
+#projects .panel-body {
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	color: #428bca;
+	cursor: default;
+	width: 100%;
+}
+#projects .panel-body .list-group-item:hover {
+	color: #fff;
+}
+#projects .panel-active {
+	background-color: #f5f5f5;
+}
+/*#projects .panel-active:hover .progress,*/
+#projects .panel-body .progress{
+	border: solid 2px #fff;
+}
+#projects .list-group-item:hover .progress{
+	border: solid 2px #c5c5c5;
+}
+#projects .panel-heading:hover .progress{
+	/*border: solid 2px #f5f5f5;*/
+}
+#projects .panel-active,
+#projects .panel-active:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel.panel-default .panel-active a{
+	color:#fff;
+}
+#projects .panel-body .list-group-item:hover {
+	background-color: #c5c5c5;
+}
+#projects .panel-body .list-group-item:hover a{
+	color: #fff;
+}
+
 /*__/listing projects__*/
 
 /* avatar - profil */
@@ -451,7 +521,7 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 
 #translation-bar .side-right .tab-pane{
 	max-height:100%;
-	overflow:auto;
+	overflow: overlay;
 	width: 100%;
 }
 #translation-bar .side-right .tab-content{
@@ -484,20 +554,20 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 		padding: 10px 0 10px 5px;
 	}
 
-.nav.navbar-nav.friends-avatars {
+	.nav.navbar-nav.friends-avatars {
 
-}
-#page-translation .nb-segments a, #page-translation .friends-avatars .fa {
+	}
+	#page-translation .nb-segments a, #page-translation .friends-avatars .fa {
 		color:#428bca;
 
-}
-#page-translation .navbar-inverse .navbar-nav>li>a {
+	}
+	#page-translation .navbar-inverse .navbar-nav>li>a {
 
-}
-.friends-avatars li:last-child{
-	font-size: 24px;
-	color: #428bca;
-}
+	}
+	.friends-avatars li:last-child{
+		font-size: 24px;
+		color: #428bca;
+	}
 	.friends-avatars a{
 		padding: 10px 5px 10px 0px;
 	}
@@ -560,9 +630,9 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 		background-color: rgba(22,22,22,0.8);
 	}
 
-.title-project {
-	padding:0;
-}
+	.title-project {
+		padding:0;
+	}
 	#translation-document .left-click td:first-child blockquote  {
 		color: #fff;
 		border-color: #fff;
@@ -658,5 +728,98 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 	}
 
 
-#num-segment {
-}
+	#num-segment {
+	}
+
+
+
+	@media (min-width: 1200px) {
+
+	}
+
+	@media (min-width: 768px) {
+	}
+	/* 768 et 1200*/
+
+	.segment-blokquote {
+
+	}
+
+	#translation-document tbody tr {
+		height: auto;
+	}
+	.borderquote {
+		display:block;
+		height: 100%;
+		min-height: 100%;
+		padding-left: 15px;
+		height: auto;
+		border-left: solid 5px #428bca;
+	}
+	.borderquote:hover {
+		border-color: #eeeeee;
+	}
+	#translation-document tbody td.col-lg-6{
+		height: 100%;
+		padding: 10px 15px;
+		/*padding: 10px 15px;*/
+	}
+	#translation-document tbody td.col-lg-6:first-child {
+		/*border-left: solid 4px #428bca;*/
+	}
+	#translation-document tbody td.col-lg-6:last-child {
+		padding: 15px 10px;
+	}
+	.table, .tr, .tr-wrap, .td {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.table {
+		width: 100%;
+		float:left;
+	}
+	.tr {
+		width: 100%;
+		float:left;
+		padding: 10px 15px;
+		cursor: pointer;
+		border-top: 1px solid #ddd;
+	}
+	.tr-wrap {
+		border-left: solid 5px #428bca;
+		float:left;
+		width: 100%;
+	}
+	.td {
+		height: auto;
+		padding: 5px 15px;
+		font-size: 15px;
+	}
+	.td:first-child {
+		padding-left: 15px;
+	}
+	.td:last-child {
+		padding-right: 20px;
+	}
+	.tr:nth-child(odd){
+		background-color: #f5f5f5;
+	}
+
+	#translation-document .tr.tr-active:nth-child(odd),
+	#translation-document .tr.tr-active:nth-child(even){
+		background-color: #428bca;
+		color: #fff;
+	}
+	#translation-document .tr.tr-active:nth-child(odd) .tr-wrap,
+	#translation-document .tr.tr-active:nth-child(even) .tr-wrap{
+		border-color: #f5f5f5;
+	}
+
+	#translation-document .tr:hover {
+		background-color: #428bca;
+		color: #fff;
+	}
+	#translation-document .tr:hover .tr-wrap{
+		border-color: #f5f5f5;
+	}

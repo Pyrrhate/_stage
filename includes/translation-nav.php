@@ -69,9 +69,9 @@
  </div>/.navbar-collapse -->
  <div class="col-lg-8 col-lg-offset-2">
   <ul class="nav navbar-nav col-lg-8">
-    <li class="active col-lg-8 infos-project"><a href="#" class="pull-left col-lg-12"><span class="col-lg-7 title-project">Titre du projet</span><span class="col-lg-3">FR > EN</span><span class="col-lg-2 no-padding-right"><i class="fa fa-cog pull-right" data-toggle="tooltip" title="éditer"></i></span></a>      
+    <li class="active col-lg-8 infos-project"><a href="#" class="pull-left col-lg-12"><span class="col-lg-9 title-project">Titre du projet</span><span class="col-lg-3 text-right">FR > EN</span></a>      
     </li>
-    <li class="col-lg-2 nb-segments" data-toggle="tooltip" title="nombre de segments traduits"><a href="#">240<i> / </i>600</a></li>
+    <li class="col-lg-2 nb-segments no-padding-left" data-toggle="tooltip" title="nombre de segments traduits"><a href="#">240<i> / </i>600</a></li>
     <li class="col-lg-2 next-segment"><!-- Segment n°<span id="num-segment"></span> --><a href="#actual-segment"><i class="fa fa-angle-right"></i></a></li>
   </ul>
   <ul class="nav navbar-nav navbar-right friends-avatars col-lg-4 no-padding">

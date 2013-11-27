@@ -6,16 +6,16 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-  <a class="navbar-brand" href="index.php">Socitrad</a>
+  <a class="navbar-brand col-sm-3" href="index.php">Socitrad</a>
   
   <div id="nav-main-items">
     <div class="collapse navbar-collapse" id="nav-main">
       <!-- Split button -->
-      <div class="btn-group navbar-btn navbar-right col-lg-2">
+      <div class="btn-group navbar-btn navbar-right col-lg-2 col-sm-3">
         <div class="dropdown-toggle" data-toggle="dropdown">
           <button type="button" class="btn btn-default btn-block drop-item">
-            <div class="col-lg-10"><i class="fa fa-cog"></i><span>Membre</span></div>
-          <div class="col-lg-2 no-padding-left">
+            <div class="col-lg-10 col-sm-10"><i class="fa fa-cog"></i><span>Membre</span></div>
+          <div class="col-lg-2 col-sm-1 no-padding-left">
             <span class="caret"></span>
             <span class="sr-only">Toggle Dropdown</span>
           </div>
@@ -28,7 +28,7 @@
         </ul>
       </div>
       <!-- Search bar -->
-      <form class="navbar-form navbar-right col-xs-9" role="search">
+      <form class="navbar-form navbar-right col-xs-9 col-sm-6" role="search">
         <div class="form-group">
           <label for="search" class="sr-only">Search bar</label>
           <input type="text" class="form-control" placeholder="Search" name="search">

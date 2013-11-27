@@ -1,5 +1,16 @@
 
 @media screen and (max-width: 840px){
+	#avatar-profil h2 {
+		font-size: 24px;
+	}
+	#avatar-profil .img-thumbnail {
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		border-bottom-left-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
 	#avatar-profil .edit-avatar {
 		opacity: 1;
 	}
