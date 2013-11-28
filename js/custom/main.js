@@ -13,15 +13,33 @@
         interval: 4000
       });
       $('.dropdown-toggle').dropdown();
-    }
-  };
-  var handler={
+      // $('#popover').popover('show');
+     // $('.popover-content').append('<img src="data/pictures/avatar2.jpg" />');/*
+$('#popover').popover({
+  html: true,
+  content: function () {
+    console.log('hello');
+    return '<img src="data/pictures/avatar2.jpg" />';
+  }
+});
+
+
+}
+};
+var handler={
     // nbSegment:null,
     // numSegment:0,
     // Allsegment:null,
     panelListingCollapsed:'',
     segmentActive:'',
     init:function(){
+      $('.btn.btn-default').bind('click',function(){
+        // console.log('btn-init');
+      });
+      $('.btn.btn-default').on('#popover', function () {
+        // console.log('btn-init2');
+      });
+
       console.log('handler-init');
       $('#projects .panel-document').bind('click',function(){
         $(this).toggleClass('panel-active');
@@ -29,7 +47,7 @@
         if(handler.panelListingCollapsed!=this){handler.panelListingCollapsed=this;}else{handler.panelListingCollapsed='';}
       });
 
-      $('#translation-document .table .tr').click(function(){
+      $('#translation-document .table .tbody .tr').click(function(){
         $(this).toggleClass("tr-active");
         $(handler.segmentActive).removeClass("tr-active");
         if(handler.segmentActive!=this){handler.segmentActive=this;}else{handler.segmentActive='';}

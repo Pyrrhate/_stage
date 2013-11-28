@@ -12,50 +12,54 @@
           <div class="form-group">
             <label for="avatar-collegue">Collégues</label>
             <div class="pull-left no-padding">
-              <!-- (div.add-friend.pull-left>a[href="#"]>((div.add-friend-content[style="background:url('data/pictures/plus.png')center center  #222">i.fa.fa-plus+img[src="http://localhost/_stage/data/pictures/avatar.png"][alt="friend name"])+div.friend-name>{friend name}))*9 -->
+              <!-- (div.add-friend.pull-left>a[href="#"]>((div.add-friend-content[style="background:url('data/pictures/plus.png')center center  #222">i.fa.fa-minus+img[src="http://localhost/_stage/data/pictures/avatar.png"][alt="friend name"])+div.friend-name>{friend name}))*9 -->
               <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
                   <div class="friend-name">friend name</div>
                 </a></div>
               <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
                   <div class="friend-name">friend name</div>
                 </a></div>
               <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
                   <div class="friend-name">friend name</div>
                 </a></div>
               <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="friend-name">friend name</div>
+                </a></div>
+              <div class="add-friend pull-left"><a href="#">
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="friend-name">friend name</div>
+                </a></div>
+              <div class="add-friend pull-left"><a href="#">
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="friend-name">friend name</div>
+                </a></div>
+              <div class="add-friend pull-left"><a href="#">
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="friend-name">friend name</div>
+                </a></div>
+              <div class="add-friend pull-left"><a href="#">
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="friend-name">friend name</div>
+                </a></div>
+              <div class="add-friend pull-left"><a href="#">
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
                   <div class="friend-name">friend name</div>
                 </a></div>
               <div class="add-friend pull-left last-item"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
-                  <div class="friend-name">friend name</div>
-                </a></div>
-              <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
-                  <div class="friend-name">friend name</div>
-                </a></div>
-              <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
-                  <div class="friend-name">friend name</div>
-                </a></div>
-              <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
-                  <div class="friend-name">friend name</div>
-                </a></div>
-              <div class="add-friend pull-left"><a href="#">
-                  <div class="add-friend-content"><i class="fa fa-plus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
+                  <div class="add-friend-content"><i class="fa fa-minus hover-hide col-lg-12 no-padding"></i><img src="http://localhost/_stage/data/pictures/avatar.png" alt="friend name"></div>
                   <div class="friend-name">friend name</div>
                 </a></div>
               </div>
             </div><!-- /.form-group -->
             <div class="form-group">
-              <label for="email-collegue">Adresse email</label>
+              <label for="invitation-translation">Inviter</label>
               <div class="input-group input-group-lg">
-                <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" class="form-control" id="email-collegue" placeholder="Enter email">
+                <span class="input-group-addon"><!-- <i class="fa fa-envelope-o"></i> --></span>
+                <input type="email" class="form-control" id="invitation-translation" placeholder="Enter email or name">
               </div>
             </div><!-- /.form-group -->
           </form>

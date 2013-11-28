@@ -125,7 +125,7 @@
         <ul class=" panel-body list-group no-margin">
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -133,7 +133,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -143,7 +143,7 @@
           </li>
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > ES</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > ES</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -151,7 +151,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -188,7 +188,7 @@
         <ul class=" panel-body list-group no-margin">
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -196,7 +196,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -206,7 +206,7 @@
           </li>
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -214,7 +214,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -251,7 +251,7 @@
         <ul class=" panel-body list-group no-margin">
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -259,7 +259,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -269,7 +269,7 @@
           </li>
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -277,7 +277,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -314,7 +314,7 @@
         <ul class=" panel-body list-group no-margin">
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > NL</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -322,7 +322,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>
@@ -332,7 +332,7 @@
           </li>
           <li class="list-group-item pull-left col-lg-12 col-sm-12">
             <ul class="list-unstyled">
-              <li class="col-lg-6 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
+              <li class="col-lg-7 col-sm-5"><a href="#" class="document-version">EN > IT</a></li>
               <li class="col-lg-3 col-sm-3">
                 <ul class="list-unstyled" data-toggle="tooltip" title="nombre de segments traduits">
                   <li>
@@ -340,7 +340,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="col-lg-3 col-sm-4">
+              <li class="col-lg-2 col-sm-4 no-padding">
                 <ul class="progress progress-striped col-lg-12 col-sm-12 no-padding pull-left" data-toggle="tooltip" title="60% Complete">
                   <li class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                   </li>

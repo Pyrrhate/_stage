@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation" id="nav-main-member">
+  <div id="navbar-main">
   <div class="container">
    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-main">
     <span class="sr-only">Toggle navigation</span>
@@ -6,16 +7,16 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-  <a class="navbar-brand" href="index.php">Socitrad</a>
+  <a class="navbar-brand  col-sm-3" href="index.php">Socitrad</a>
   
   <div id="nav-main-items">
     <div class="collapse navbar-collapse" id="nav-main">
       <!-- Split button -->
-      <div class="btn-group navbar-btn navbar-right col-lg-2">
+      <div class="btn-group navbar-btn navbar-right col-lg-2 col-sm-3">
         <div class="dropdown-toggle" data-toggle="dropdown">
           <button type="button" class="btn btn-default btn-block drop-item">
-            <div class="col-lg-10"><i class="fa fa-cog"></i><span>Membre</span></div>
-            <div class="col-lg-2 no-padding-left">
+            <div class="col-lg-10 col-sm-10"><i class="fa fa-cog"></i><span>Membre</span></div>
+            <div class="col-lg-2 col-sm-1 no-padding-left">
               <span class="caret"></span>
               <span class="sr-only">Toggle Dropdown</span>
             </div>
@@ -28,7 +29,7 @@
         </ul>
       </div>
       <!-- Search bar -->
-      <form class="navbar-form navbar-right col-xs-9" role="search">
+      <form class="navbar-form navbar-right col-xs-9 col-sm-6" role="search">
         <div class="form-group">
           <label for="search" class="sr-only">Search bar</label>
           <input type="text" class="form-control" placeholder="Search" name="search">
@@ -47,7 +48,7 @@
       </span>
     </form> -->
   </div>
-
+</div>
 
 
   <nav class="navbar navbar-default navbar-inverse row no-margin" role="navigation" id="nav-subnav-member">
@@ -68,29 +69,46 @@
    </ul>
  </div>/.navbar-collapse -->
  <div class="col-lg-8 col-lg-offset-2">
-  <ul class="nav navbar-nav col-lg-8">
-    <li class="active col-lg-8 infos-project"><a href="#" class="pull-left col-lg-12"><span class="col-lg-9 title-project">Titre du projet</span><span class="col-lg-3 text-right">FR > EN</span></a>      
+  <ul class="nav navbar-nav col-lg-8 col-sm-8">
+    <li class="col-lg-8 col-sm-9 infos-project">
+      <a href="#" class="pull-left col-lg-9 col-sm-9">
+        <span class="col-lg-9 title-project">Titre du projet</span>
+      </a>
+      <a href="#" class="pull-left col-lg-3 col-sm-3 no-padding">
+        <span class="text-right pull-left no-padding">FR > EN</span>
+      </a>      
     </li>
-    <li class="col-lg-2 nb-segments no-padding-left" data-toggle="tooltip" title="nombre de segments traduits"><a href="#">240<i> / </i>600</a></li>
-    <li class="col-lg-2 next-segment"><!-- Segment n°<span id="num-segment"></span> --><a href="#actual-segment"><i class="fa fa-angle-right"></i></a></li>
+    <li class="col-lg-2 col-sm-3 nb-segments no-padding" data-toggle="tooltip" title="nombre de segments traduits"><a href="#">240<i> / </i>600</a></li>
   </ul>
-  <ul class="nav navbar-nav navbar-right friends-avatars col-lg-4 no-padding">
+  <div id="next-empty-segment" class="visible-sm col-sm-2 no-padding"><a href="#next-seg"><i>Next</i><i class="fa fa-angle-down"></i></a></div>
+
+  <ul class="nav navbar-nav navbar-right friends-avatars col-lg-4 col-sm-2 no-padding">
     <div class="pull-right nav navbar-nav">
-      <li>
-        <a href="#" data-toggle="modal" data-target="#collegue-modal"><img src="" alt"" class=""></a>
+      <li class="show-friends visible-sm">
+        <a href="#">
+          <i class="fa fa-angle-left"></i>
+        </a> 
       </li>
       <li>
-        <a href="#" data-toggle="modal" data-target="#collegue-modal"><img src="" alt"" class=""></a>
-      </li>
-      <li>
-        <a href="#" data-toggle="modal" data-target="#collegue-modal"><img src="" alt"" class="offline"></a>
-      </li>
-      <li>
-        <a href="#" data-toggle="modal" data-target="#collegue-modal"><img src="" alt"" class="offline"></a>
-      </li>
-      <li><a href="#" data-toggle="modal" data-target="#add-collegue-modal"><i class="fa fa-plus primary" data-toggle="tooltip" title="ajouter un collégue"></i></a></li>
-    </div>
-  </ul>
+       <!-- data-toggle="modal" data-target="#collegue-modal" -->
+       <a href="#"><img src="" alt"" class=""></a>
+     </li>
+     <li>
+       <!-- data-toggle="modal" data-target="#collegue-modal" -->
+       <a href="#"><img src="" alt"" class="hidden-sm hidden-xs"></a>
+     </li>
+     <li>
+       <!-- data-toggle="modal" data-target="#collegue-modal" -->
+       <a href="#"><img src="" alt"" class="offline hidden-sm hidden-xs"></a>
+     </li>
+     <li>
+       <!-- data-toggle="modal" data-target="#collegue-modal" -->
+       <a href="#"><img src="" alt"" class="offline hidden-sm hidden-xs"></a>
+     </li>
+     <li><a href="#" data-toggle="modal" data-target="#add-collegue-modal"><i class="fa fa-plus primary" data-toggle="tooltip" title="ajouter un collégue"></i></a></li>
+   </div>
+ </ul>
+
 </div><!-- /.navbar-collapse -->
   <!-- <div class="col-lg-3">
     <ul class="nav navbar-nav">

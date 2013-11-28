@@ -15,10 +15,10 @@
         <div class="dropdown-toggle" data-toggle="dropdown">
           <button type="button" class="btn btn-default btn-block drop-item">
             <div class="col-lg-10 col-sm-10"><i class="fa fa-cog"></i><span>Membre</span></div>
-          <div class="col-lg-2 col-sm-1 no-padding-left">
-            <span class="caret"></span>
-            <span class="sr-only">Toggle Dropdown</span>
-          </div>
+            <div class="col-lg-2 col-sm-1 no-padding-left">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </div>
           </button>
         </div>
         <ul class="dropdown-menu" role="menu">
