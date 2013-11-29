@@ -18,12 +18,19 @@
          <!-- id="popover" data-toggle="popover" data-placement="left" data-original-title="" title="" data-container="" data-content=" " -->
          
          <div class="tr-wrap">
-        <!--   <div class="translator-popover" style="left:-175px;">
-            <img src="data/pictures/avatar2.jpg">
+          <div class="translator-popover-container">
+            <div class="translator-popover" style="left:-175px;">
+              <div class="avatar-container">
+                <img src="data/pictures/avatar2.jpg">
+              </div>
+            </div>
+            <div class="translator-popover" style="">
+              <div class="avatar-container">
+                <img src="data/pictures/avatar.png">
+                <div class="arrow-right-cs"></div>
+              </div>
+            </div>
           </div>
-          <div class="translator-popover" style="">
-            <img src="data/pictures/avatar.png">
-          </div> -->
           <div class="td col-lg-6 col-sm-6">
             HELLO ipsum dolor sit amet, consectetur adipisicing elit. Minima earum molestias libero temporibus distinctio dolore impedit cupiditate rem aperiam soluta. Aspernatur neque tempore obcaecati consequuntur recusandae quo consequatur odit fugit!
           </div>

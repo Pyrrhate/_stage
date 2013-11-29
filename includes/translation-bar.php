@@ -54,14 +54,7 @@
             <h4 class="list-group-item-heading">Lorem Ipsum</h4>
             <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
           </a>
-          <a href="#" class="list-group-item">
-            <h4 class="list-group-item-heading">Lorem Ipsum</h4>
-            <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
-          </a>
-          <a href="#" class="list-group-item">
-            <h4 class="list-group-item-heading">Lorem Ipsum</h4>
-            <p class="list-group-item-text">Lorem ipsum dolor sit.</p>
-          </a>
+         
         </div>
 
       </div>

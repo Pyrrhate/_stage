@@ -100,6 +100,8 @@ body{
 
 section.section {
 	margin-bottom: 30px;
+	float:left;
+	width: 100%;
 }
 .no-padding{
 	padding:0;
@@ -388,7 +390,7 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 
 
 #translation-document {
-	margin-bottom: 180px;
+	/*margin-bottom: 180px;*/
 }
 #translation-document tbody tr {
 	/*margin-bottom: 10px;*/
@@ -588,60 +590,16 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 }
 .hover-hide:hover {
 	opacity: 1;
-	opacity: 1;
-	-webkit-transition: opacity 250ms ;
-	-moz-transition: opacity 250ms ;
-	-ms-transition: opacity 250ms ;
-	-o-transition: opacity 250ms ;
-	transition: opacity 250ms ;
+	-webkit-transition: opacity 100ms ;
+	-moz-transition: opacity 100ms ;
+	-ms-transition: opacity 100ms ;
+	-o-transition: opacity 100ms ;
+	transition: opacity 100ms ;
 	background-color: rgba(22,22,22,0.8);
 }
 .title-project {
 	padding:0;
 }
-
-/* SCROLL TOP DOCUMENT */
-
-#next-empty-segment {
-	/*display: none;*/
-	position:fixed;
-	z-index:10000;
-}
-#next-empty-segment a {
-	opacity: 0.8;
-	height:60px;
-	width:60px;
-	background-color: #428bca;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 0;
-}
-#next-empty-segment a:hover {
-	opacity:1;
-	-webkit-transition: opacity 250ms ;
-	-moz-transition: opacity 250ms ;
-	-ms-transition: opacity 250ms ;
-	-o-transition: opacity 250ms ;
-	transition: opacity 250ms ;
-}
-#next-empty-segment i,
-#next-empty-segment a {
-	position: relative;
-	display: block;
-}
-#next-empty-segment i.fa {
-	font-size: 28px;
-	height: 30px;
-}
-#next-empty-segment i:first-child {
-	font-size: 16px;
-	height: 20px;
-}
-/* /scroll top document */
-
-
-
 
 @media (min-width: 1200px) {
 
@@ -701,41 +659,12 @@ IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS
 		/* / div-table */
 
 
-		.popover-content img {
-			max-width: 80px;
-		}
-		.translator-popover {
-			position: absolute;
-			left:-100px;
-			height:100%;
-		}
+		
 
-		.translator-popover img {
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			border-radius: 5px;
-			/*width: 80px;*/
-			height:50%;
-			margin: 50% 0;
-			background-color: #fff;
 
-			border: 1px #333 solid;
-		}
-		.translator-popover .arrow-right {
-			position: absolute;
-			display: block;
-			width: 0;
-			height: 0;
-			border-style: solid;
-
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-		}
-		.translator-popover .arrow-right:after {
-			right: 1px;
-			bottom: -10px;
-			border-left-color: #fff;
-			border-right-width: 0;
-			content: " ";
-		}
+/*
+		background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url(../../data/images/bg-footer-noise.jpg);
+		background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,0)), url(../../data/images/bg-footer-noise.jpg);
+		background-repeat: repeat-x, repeat;
+		background-size: 100px 15px, 140px 140px;
+*/

@@ -21,7 +21,8 @@
 </head>
 <body id="page-translation">
   <a class="sr-only" href="#content">Skip to main content</a>
-  <?php require_once('includes/translation-nav.php'); ?>
+  <?php  require_once('includes/translation-nav.php'); ?>
+  <?php //require_once('includes/translation-nav2.php'); ?>
 <!--   <div class="wrapper">
   <div class="content-main">...</div>
   <div class="content-secondary">...</div>
